@@ -1,18 +1,6 @@
----
-editor_options: 
-  markdown: 
-    wrap: sentence
----
-
 # 2024 bioinformatics workshop: Napari image viewer for exploring spatial transcriptomics
 
-As more labs perform spatial transcriptomics experiments, there is a necessity for researchers to be able to visualize and explore the results.
-For 10X genomics experiments, the Loupe Browser application is one option for exploring spatial data that does not require any coding.
-While Loupe Browser offers an intuitive, polished, interactive interface, the functionality is limited.
-I recently started using the [Napari image viewer](https://napari.org/stable/) for visualizing spatial datsets.
-Napari is powerful, flexible, and customizable, and can be used to visualize tissue images, gene expression, and virtually any type of data or analysis resulting from spatial transcriptomics experiments.
-Napari can also be used more generally for any type of imaging/microscopy data, but this workshop will focus on spatial transcriptomics.
-The following instructions can be used to install and run Napari with minimal coding required.
+As more labs perform spatial transcriptomics experiments, there is a necessity for researchers to be able to visualize and explore the results. For 10X genomics experiments, the Loupe Browser application is one option for exploring spatial data that does not require any coding. While Loupe Browser offers an intuitive, polished, interactive interface, the functionality is limited. I recently started using the [Napari image viewer](https://napari.org/stable/) for visualizing spatial datsets. Napari is powerful, flexible, and customizable, and can be used to visualize tissue images, gene expression, and virtually any type of data or analysis resulting from spatial transcriptomics experiments. Napari can also be used more generally for any type of imaging/microscopy data, but this workshop will focus on spatial transcriptomics. The following instructions can be used to install and run Napari with minimal coding required.
 
 ***Note for Windows users: while the following instructions should work on Windows, Mac, or Linux computers, I don't have a way of testing this on Windows and can't guarantee everything will work***
 
@@ -24,14 +12,15 @@ The following instructions can be used to install and run Napari with minimal co
 git clone https://github.com/tjgibson/2024-napari-workshop.git
 ```
 
-**Option 2: Download through github** To download this repository through the web, do the following: 1.
-navigate to the github page: <https://github.com/tjgibson/2024-napari-workshop>.
-2.
-Click on the green code icon to open a dropdown menu.
-3.
-Click download zip and save in a location of your choice.
-4.
-Unzip the file and open the folder.
+**Option 2: Download through github** To download this repository through the web, do the following:
+
+1.   navigate to the github page: <https://github.com/tjgibson/2024-napari-workshop>.
+
+2.  Click on the green code icon to open a dropdown menu.
+
+3.  Click download zip and save in a location of your choice.
+
+4.  Unzip the file and open the folder.
 
 ## Download the example dataset
 
@@ -39,11 +28,7 @@ To try out Napari on a real spatial transcriptomic dataset, follow the instructi
 
 ## Mouse intestines dataset
 
-10X genomics provides an example dataset generated using the Visium HD platform on mouse intestines.
-1.
-Use [this link](https://s3.embl.de/spatialdata/spatialdata-sandbox/visium_hd_3.0.0_io.zip) to download the dataset and save it to the data folder.
-2.
-Rename the dataset `visium_hd.zarr`.
+10X genomics provides an example dataset generated using the Visium HD platform on mouse intestines. 1. Use [this link](https://s3.embl.de/spatialdata/spatialdata-sandbox/visium_hd_3.0.0_io.zip) to download the dataset and save it to the data folder. 2. Rename the dataset `visium_hd.zarr`.
 
 ## Software Setup
 
@@ -100,13 +85,10 @@ conda env create -n spatialdata -f spatialdata.yaml
 
 ## Opening the example notebook in VS code
 
-Although Napari is an interactive, graphical application, it is launched from a Python script/notebook rather than by opening an app on your computer.
-As an easy way to launch Napari, I have provided a template ipython notebook to load a spatial transcriptomics dataset and launch the Napari viewer.
-To do so, follow the steps below.
+Although Napari is an interactive, graphical application, it is launched from a Python script/notebook rather than by opening an app on your computer. As an easy way to launch Napari, I have provided a template ipython notebook to load a spatial transcriptomics dataset and launch the Napari viewer. To do so, follow the steps below.
 
 1.  Download and install the Visual Studio Code program: <https://code.visualstudio.com/Download>
 
-2.  Open VS Code.
-    Click on file, open folder and select the folder for this workshop.
+2.  Open VS Code. Click on file, open folder and select the folder for this workshop.
 
 3.  Open the file `napari_viewer.ipynb` in VS Code.
