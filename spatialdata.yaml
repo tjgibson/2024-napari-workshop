@@ -1,6 +1,7 @@
 channels:
   - conda-forge
 dependencies:
+  - ipykernel
   - pip
   - pip:
     - spatialdata
