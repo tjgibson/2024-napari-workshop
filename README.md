@@ -14,7 +14,7 @@ git clone https://github.com/tjgibson/2024-napari-workshop.git
 
 **Option 2: Download through github** To download this repository through the web, do the following:
 
-1.   navigate to the github page: <https://github.com/tjgibson/2024-napari-workshop>.
+1.  navigate to the github page: <https://github.com/tjgibson/2024-napari-workshop>.
 
 2.  Click on the green code icon to open a dropdown menu.
 
@@ -26,9 +26,13 @@ git clone https://github.com/tjgibson/2024-napari-workshop.git
 
 To try out Napari on a real spatial transcriptomic dataset, follow the instructions below to download an example dataset and place it in the data folder.
 
-## Mouse intestines dataset
+### Mouse intestines dataset
 
-10X genomics provides an example dataset generated using the Visium HD platform on mouse intestines. 1. Use [this link](https://s3.embl.de/spatialdata/spatialdata-sandbox/visium_hd_3.0.0_io.zip) to download the dataset and save it to the data folder. 2. Rename the dataset `visium_hd.zarr`.
+10X genomics provides an example dataset generated using the Visium HD platform on mouse intestines.
+
+1.  Use [this link](https://s3.embl.de/spatialdata/spatialdata-sandbox/visium_hd_3.0.0_io.zip) to download the dataset and save it to the data folder.
+
+2.  Rename the dataset `visium_hd.zarr`.
 
 ## Software Setup
 
