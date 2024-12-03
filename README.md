@@ -28,15 +28,13 @@ To try out Napari on a real spatial transcriptomic dataset, follow the instructi
 
 ### Mouse intestines dataset
 
-10X genomics provides an example dataset generated using the Visium HD platform on mouse intestines.
+10X genomics provides an [example dataset](https://s3.embl.de/spatialdata/spatialdata-sandbox/visium_hd_3.0.0_io.zip) generated using the Visium HD platform on mouse intestines. I have created a modified version of this dataset for this workshop.
 
-1.  Use [this link](https://s3.embl.de/spatialdata/spatialdata-sandbox/visium_hd_3.0.0_io.zip) to download the dataset and save it to the data folder.
+1.  Use the download link provided in the workshop email reminder to download the modified example dataset. The link will only be accessible through a CU Denver/Anschutz account.
 
-2.  Unzip the file.
+2.  Unzip the file. The unzipped folder should be named `visium_hd.zarr`, rename it if it is not.
 
-3.  Rename the resulting folder `visium_hd.zarr`.
-
-4.  Create a new folder called `data` and move `visium_hd.zarr` into this data folder.
+3.  Create a new folder called `data` and move `visium_hd.zarr` into this data folder.
 
 ## Software Setup
 
