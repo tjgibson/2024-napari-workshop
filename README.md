@@ -16,7 +16,7 @@ git clone https://github.com/tjgibson/2024-napari-workshop.git
 
 1.  navigate to the github page: <https://github.com/tjgibson/2024-napari-workshop>.
 
-2.  Click on the green code icon to open a dropdown menu.
+2.  Click on the green code icon near the top right corner of the page to open a dropdown menu.
 
 3.  Click download zip and save in a location of your choice.
 
@@ -32,7 +32,11 @@ To try out Napari on a real spatial transcriptomic dataset, follow the instructi
 
 1.  Use [this link](https://s3.embl.de/spatialdata/spatialdata-sandbox/visium_hd_3.0.0_io.zip) to download the dataset and save it to the data folder.
 
-2.  Rename the dataset `visium_hd.zarr`.
+2.  Unzip the file.
+
+3.  Rename the resulting folder `visium_hd.zarr`.
+
+4.  Create a new folder called `data` and move `visium_hd.zarr` into this data folder.
 
 ## Software Setup
 
@@ -96,3 +100,11 @@ Although Napari is an interactive, graphical application, it is launched from a 
 2.  Open VS Code. Click on file, open folder and select the folder for this workshop.
 
 3.  Open the file `napari_viewer.ipynb` in VS Code.
+
+4.  After opening the python notebook, there should be an icon in the top right corner labelled `select kernel`. Clicking this icon will open a dropdown at the top of the screen. Click on `Python environments...`, then `spatialdata`. Now you are reading to run the code to launch Napari.
+
+5.  In the python notebook, you will see bold section heading with blocks of python code below them. These code blocks are also called "cells". For example, at the top of the notebook you should see a bold heading that reads **Setup**. Below this you should see a code cell that starts with `from spatialdata import SpatialData`. To run a code cell, click on the triangle symbol that appears to the left of each cell when you click on it or hover your mouse over it. Click this symbol to run each code chunk in order. After you start running a cell, a timer will appear at the bottom that shows how long the code has been running. When the code in that cell has finished running, a green check mark will appear.
+
+6.  Run all the code cells in order. When you run the final code cell under the heading **Launch Napari Viewer**, a new window should pop up with the Napari image viewer.
+
+Congratulations on making it through this setup! You are now ready to start using Napari.
